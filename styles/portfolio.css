@@ -185,15 +185,53 @@ nav li {
     margin-bottom: 20px;
 }
 
-.resume .description{
+.resume .description {
     color: #757575;
 }
 
-.resume-button{
+.resume-button {
     margin-top: 50px;
     text-align: center;
     margin-bottom: 113px;
 }
 
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 113px 170px;
+}
+
+.connect-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.connect-description {
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.connect img {
+    margin-right: 24px;
+}
+
+.message-title {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 28px;
+}
+
+.message input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input[type="text"], input[type="email"]{
+    height: 36px;
+}
 
 /* Main style End*/
